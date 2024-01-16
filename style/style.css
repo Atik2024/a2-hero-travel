@@ -130,10 +130,22 @@ line-height: 26px; /* 162.5% */
 }
 .addrace-1{
    border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-
-background: rgba(251, 181, 99, 0.05);
+   border: 1px solid rgba(251, 181, 99, 0.20);
+   
+   background: rgba(251, 181, 99, 0.05);
+}
+  
 .addrace-2{
    border-radius: 16px;
    border: 1px solid rgba(251, 181, 99, 0.20);
    background: rgba(251, 181, 99, 0.05);
+}
+.log{
+   display: flex;
+}
+@media screen and (Max-with:600px){
+   .populer-tou{
+      flex-direction: column;
+   }
+}
+ 
